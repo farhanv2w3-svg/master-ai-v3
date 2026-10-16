@@ -1,0 +1,21 @@
+name = "master-ai-backend"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+APP_ENV = "production"
+DEFAULT_TENANT_ID = "primary-tenant"
+SECURITY_PROFILE = "standard"
+PROVIDER_ALLOWLIST = "gemini,groq,mock"
+ALLOW_CLOUD_MODELS = "true"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "master-ai-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[observability]
+enabled = true
+head_sampling_rate = 1

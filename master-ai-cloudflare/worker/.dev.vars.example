@@ -1,0 +1,12 @@
+# Copy to .dev.vars for local development; never commit .dev.vars.
+MASTER_API_TOKEN=replace-with-a-random-secret-at-least-32-bytes-long
+DEFAULT_TENANT_ID=local-tenant
+PROVIDER_ALLOWLIST=gemini,groq,mock
+ALLOW_CLOUD_MODELS=false
+SECURITY_PROFILE=standard
+GEMINI_API_KEY=
+GROQ_API_KEY=
+# Optional providers; do not enable until configured and intended.
+OPENAI_API_KEY=
+OPENROUTER_API_KEY=
+ANTHROPIC_API_KEY=
