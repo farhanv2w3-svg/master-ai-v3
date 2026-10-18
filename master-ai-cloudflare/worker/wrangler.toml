@@ -12,8 +12,8 @@ ALLOW_CLOUD_MODELS = "true"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "master-ai-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_name = "master-ai-v3"
+database_id = "036b609e-27a9-48ee-a70e-4a3c00b06a9e"
 migrations_dir = "migrations"
 
 [observability]
